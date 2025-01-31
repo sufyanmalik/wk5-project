@@ -3,7 +3,7 @@ const jokeForm = document.getElementById("jokeForm");
 const jokeInput = document.getElementById("joke");
 const punchlineInput = document.getElementById("punchline");
 
-const API_URL = "http://localhost:4242/jokes"; // Need to update when deploy
+const API_URL = "https://wk5-project-server.onrender.com/jokes"; // Need to update when deploy
 
 // Fetch and display jokes
 async function fetchJokes() {
